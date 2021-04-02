@@ -1,0 +1,103 @@
+@import 'compass/reset';
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --background: #FD9BD2;
+  --egg: #FFF7AC;
+  --shadow: #F881C5;
+}
+
+.step-2 {
+  --background: #FD9A9B;
+  --egg: #D7FDFF;
+  --shadow: #F68283;
+}
+
+.step-3 {
+  --background: #99FFFF;
+  --egg: #7A7FFF;
+  --shadow: #81D1F8;
+}
+
+.step-4 {
+  --background: #FFD699;
+  --egg: #FF539B;
+  --shadow: #FCC778 ;
+}
+
+.last {
+  --background: #FF539B;
+  --egg: #FFF78A;
+  --shadow: #FB3789;
+
+  .app {
+    padding-top: 80px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  line-height: 28px;
+
+  background-color: var(--background);
+  color: var(--egg);
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+}
+
+.app {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 72px 24px 0px;
+}
+
+.egg {
+  width: 96px;
+  margin-left: 115px;
+  margin-bottom: 48px;
+  position: relative;
+  color: var(--shadow);
+
+  &__number {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+
+    font-size: 48px;
+    line-height: 1em;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__egg {
+    fill: var(--egg);
+  }
+  &__shadow {
+    fill: var(--shadow);
+  }
+}
+
+.chicken {
+  margin-left: 112px;
+  width: 104px;
+  margin-bottom: 96px;
+}
+
+article {
+  text-shadow: 2px 2px 0px var(--shadow);
+}
+
+p {
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

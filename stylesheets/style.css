@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+/* line 5, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-2.4.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/style.scss */
+:root {
+  --background: #FD9BD2;
+  --egg: #FFF7AC;
+  --shadow: #F881C5;
+}
+
+/* line 10, ../sass/style.scss */
+.step-2 {
+  --background: #FD9A9B;
+  --egg: #D7FDFF;
+  --shadow: #F68283;
+}
+
+/* line 16, ../sass/style.scss */
+.step-3 {
+  --background: #99FFFF;
+  --egg: #7A7FFF;
+  --shadow: #81D1F8;
+}
+
+/* line 22, ../sass/style.scss */
+.step-4 {
+  --background: #FFD699;
+  --egg: #FF539B;
+  --shadow: #FCC778;
+}
+
+/* line 28, ../sass/style.scss */
+.last {
+  --background: #FF539B;
+  --egg: #FFF78A;
+  --shadow: #FB3789;
+}
+/* line 33, ../sass/style.scss */
+.last .app {
+  padding-top: 80px;
+}
+
+/* line 38, ../sass/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 42, ../sass/style.scss */
+body {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  line-height: 28px;
+  background-color: var(--background);
+  color: var(--egg);
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+}
+
+/* line 55, ../sass/style.scss */
+.app {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 72px 24px 0px;
+}
+
+/* line 61, ../sass/style.scss */
+.egg {
+  width: 96px;
+  margin-left: 115px;
+  margin-bottom: 48px;
+  position: relative;
+  color: var(--shadow);
+}
+/* line 68, ../sass/style.scss */
+.egg__number {
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  font-size: 48px;
+  line-height: 1em;
+  width: 100%;
+  text-align: center;
+}
+/* line 79, ../sass/style.scss */
+.egg__egg {
+  fill: var(--egg);
+}
+/* line 82, ../sass/style.scss */
+.egg__shadow {
+  fill: var(--shadow);
+}
+
+/* line 87, ../sass/style.scss */
+.chicken {
+  margin-left: 112px;
+  width: 104px;
+  margin-bottom: 96px;
+}
+
+/* line 93, ../sass/style.scss */
+article {
+  text-shadow: 2px 2px 0px var(--shadow);
+}
+
+/* line 97, ../sass/style.scss */
+p {
+  margin-bottom: 24px;
+}
+/* line 100, ../sass/style.scss */
+p:last-child {
+  margin-bottom: 0;
+}
