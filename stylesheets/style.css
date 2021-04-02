@@ -102,13 +102,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .last .app {
   padding-top: 80px;
 }
+/* line 37, ../sass/style.scss */
+.last .egg {
+  margin-bottom: 64px;
+}
 
-/* line 38, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 42, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 body {
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
@@ -121,14 +125,14 @@ body {
   font-smooth: never;
 }
 
-/* line 55, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .app {
   max-width: 375px;
   margin: 0 auto;
   padding: 72px 24px 0px;
 }
 
-/* line 61, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .egg {
   width: 96px;
   margin-left: 115px;
@@ -136,7 +140,7 @@ body {
   position: relative;
   color: var(--shadow);
 }
-/* line 68, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 .egg__number {
   position: absolute;
   left: 0px;
@@ -146,32 +150,32 @@ body {
   width: 100%;
   text-align: center;
 }
-/* line 79, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .egg__egg {
   fill: var(--egg);
 }
-/* line 82, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .egg__shadow {
   fill: var(--shadow);
 }
 
-/* line 87, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .chicken {
   margin-left: 112px;
   width: 104px;
   margin-bottom: 96px;
 }
 
-/* line 93, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 article {
   text-shadow: 2px 2px 0px var(--shadow);
 }
 
-/* line 97, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 p {
   margin-bottom: 24px;
 }
-/* line 100, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 p:last-child {
   margin-bottom: 0;
 }
